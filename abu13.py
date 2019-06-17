@@ -1,7 +1,9 @@
-t=(input("enter character:"))
-if((t=='a')or(t=='e')or(t=='i')or(t=='o')or(t=='u')):
-       print("vowels")
-elif((t==('b')or(t=='c')or(t=='d')or(t=='f')or(t=='g')or(t=='h')or(t=='j')or(t=='k')or(t=='l')or(t=='m')or(t=='n')or(t=='p')or(t=='q')or(t=='r')or(t=='s')or(t=='t')or(t=='v')or(t=='w')or(t=='x')or(t=='y')or(t=='z'))):
-        print("consonant")
+t=input()
+vowel=['a','A','e','E','i','I','o','O','u','U']
+Consonant=['b','B','c','C','d','D','f','F','j','J','k','K','l','L','m','M','n','N','p','P','q','Q','r','R','s','S','t','T','v','V','w','W','x','X','y','Y','z','Z']
+if t in vowel:
+    print("Vowel")
+elif t in Consonant:
+    print("Consonant")
 else:
-        print(" It is invalid")
+    print("invalid")
