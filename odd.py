@@ -1,8 +1,8 @@
-p=int(input("enter the number"))
-if p>0:
-    if(p%2==0):
-        print(" It is even")
+try:
+    t=int(input())
+    if((t%2)==0):
+        print("Even")
     else:
-        print("It is odd")
-else:    
+        print("Odd")
+except:
     print("invalid")
